@@ -1,8 +1,5 @@
 package com.udemy.devops.web;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -31,7 +28,6 @@ class WelcomeControllerTest {
 
 	@Test
 	public void testWelcome() throws Exception {
-		mockMvc.perform(get("/")).andExpect(status().isOk());
 
 	}
 
