@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.udemy</groupId>
 	<artifactId>devops</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>DevOps Udemy</name>
 	<description>Demo project for Spring Boot and Udemy</description>
@@ -35,7 +35,7 @@
 		<connection>scm:git:git@github.com:vbhangu/devops.git</connection>
 		<developerConnection>scm:git:git@github.com:vbhangu/devops.git</developerConnection>
 		<url>git@github.com:vbhangu/devops.git</url>
-		<tag>v1.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
