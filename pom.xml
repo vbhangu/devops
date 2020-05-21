@@ -123,8 +123,14 @@
 					</execution>
 				</executions>
 			</plugin>
-
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.1.1</version>
+                <configuration>
+                    <javadocExecutable>/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin/javadoc</javadocExecutable>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
-
 </project>
