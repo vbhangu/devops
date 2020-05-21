@@ -18,7 +18,6 @@
 		<java.version>1.8</java.version>
 		<surefire.version>2.22.2</surefire.version>
 		<jacoco.version>0.8.3</jacoco.version>
-		<maven.compiler.release>12.0.1</maven.compiler.release>
 	</properties>
 
 	<distributionManagement>
