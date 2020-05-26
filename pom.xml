@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.udemy</groupId>
 	<artifactId>devops</artifactId>
-	<version>1.6.0-SNAPSHOT</version>
+	<version>1.7.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>DevOps Udemy</name>
 	<description>Demo project for Spring Boot and Udemy</description>
